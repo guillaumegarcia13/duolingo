@@ -2,5 +2,9 @@
 	"name": "duolingo",
 	"version": "0.0.0",
 	"description": "Streak keeper and XP farm for Duolingo",
-	"type": "module"
+	"type": "module",
+    "scripts": {
+        "__RUN__": "-------------------- *** RUN *** --------------------",
+        "duo": "node --env-file=.env index.js"
+	}
 }
